@@ -4,11 +4,10 @@
 # configure
 snippet <configure configure
 	<configure
-	    xmlns:${1:zope}="http://namespaces.zope.org/zope"
-	    xmlns:${2:browser}="http://namespaces.zope.org/browser">
+	    xmlns:${1:zope}="http://namespaces.zope.org/$1"
+	    xmlns:${2:browser}="http://namespaces.zope.org/$2">
 	  ${3}
 	</configure>
-	
 
 # GenericSetupupgradestepgroup
 snippet <upgradeg GenericSetupupgradestepgroup
